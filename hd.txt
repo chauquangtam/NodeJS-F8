@@ -1,0 +1,48 @@
+Hướng dẫn cài đặt 
+lnk : https://www.youtube.com/watch?v=zCFOn4YXr00&list=PL_-VfJajZj0VatBpaXkEHK_UPHL7dW6I3&index=6
+npm init 
+tạo reponsitory
+npm install --save-dev nodemon
+
+
+vào package.jso sửa 
+"scripts": {
+    "start" : "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  run: npm start
+tạo express
+npx express-generator
+npm install -g express-generator
+express
+express -h
+
+express --view=pug myapp   -pub là tên template engine vd ejs
+express --view=ejs NodeJS-ZendVN-Express
+npm install
+ nếu lỗi
+ On MacOS or Linux, run the app with this command:
+
+$ DEBUG=myapp:* npm start
+On Windows Command Prompt, use this command:
+
+> set DEBUG=myapp:* & npm start
+On Windows PowerShell, use this command:
+
+PS> $env:DEBUG='myapp:*'; npm start
+
+run với câu lệnh : npm start  --  nếu chưa cài đặt nodemon
+npm install -g nodemon
+npm install --save-dev nodemon
+nodemon [your node app]
+
+start: node app -> nodemon app 
+nếu đã cài đặt nodemon thì thì vào file package.json đổi start : node www thành nodemon wwww
+
+npm install express-ejs-layouts
+
+
+
+
+
